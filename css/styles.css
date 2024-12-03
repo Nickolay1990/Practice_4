@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+/* ========================= header ================================== */
+
+.pageheader {
+    background-image: url('/img/background_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    padding: 0 10px 0;
+}
+
+.pageheader-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pageheader-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.pageheader-nav-list-item {
+    flex-basis: calc((100% - 40px * 3) / 4);
+}
+
+.pageheader-nav-list-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.pageheader-nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.pageheader-nav-support {
+    flex-basis: 58px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.pageheader-nav-signin {
+    margin-left: 38px;
+    border-radius: 96px;
+    padding: 12px 40px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #ffbc51;
+}
+
+.pageheader-second-container {
+    display: flex;
+    align-items: center;
+}
+
+.pageheader-hero {
+    flex-basis: 421px;
+    flex-shrink: 0;
+}
+
+.pageheader-hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.pageheader-hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 38px;
+}
+
+.pageheader-hero-btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(171, 163, 163, 0.2);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #798ac9;
+}
+
+.pageheader-photos-monitor {
+    z-index: 1;
+    margin-left: 150px;
+}
+
+.pageheader-photos-screen {
+    z-index: 2;
+    position: absolute;
+    right: 8%;
+    bottom: 14%;
+}
